@@ -1,0 +1,32 @@
+.key {
+    display: inline-block;
+    padding: 14px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    transition: all 0.07s ease;
+    margin-left: 10px;
+}
+
+.keys {
+    padding: 50px;
+    box-shadow: 1px 1px 9px 0.2px dodgerblue;
+}
+
+.header {
+    padding: 16px 20px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 30px;
+    font-family: system-ui;
+}
+
+body {
+    margin: 0;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: dodgerblue;
+    box-shadow: 0 0 1rem dodgerblue;
+}
